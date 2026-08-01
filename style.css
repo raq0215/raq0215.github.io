@@ -1,1 +1,69 @@
+/* ========================================
+   ESTILOS DOS ELEMENTOS
+   ======================================== */
+h1{
+  color: #120224;
+  font-size: 40px;
+  text-align: center;
+}
+
+h2{
+  color: #4F2382;
+}
+
+p{
+  color: #A677D9;
+}
+
+a{
+  color: #0A0112;
+  text-decoration: nome;
+}
+/* ========================================
+   CLASSE
+   ======================================== */
+
+.cargo {
+  color: #666666
+  font-weight: bold;
+}
+
+.link-social {
+  color: #261F1F;
+    text-decoration: nome;
+}
+/* ========================================
+   SEÇÕES
+   ======================================== */
+
+#hero {
+  background-color: #FFF8D9;
+}
+
+#sobre {
+  background-color: #F5E6FF;
+}
+
+#habilidades {
+  background-color: #FFF8D9;
+}
+
+#projetos{
+  background-color: #F5E6FF;
+}
+#contatos {
+  background-color: #FFF8D9;
+}
+
+/* ========================================
+   RODAPÉ
+   ======================================== */
+footer {
+  background-color: #222222;
+}
+
+footer p{
+  color: white;
+}
+
 
