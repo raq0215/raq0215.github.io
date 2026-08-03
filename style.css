@@ -24,7 +24,7 @@ a{
    ======================================== */
 
 .cargo {
-  color: #666666
+  color: #666666;
   font-weight: bold;
 }
 
@@ -46,7 +46,7 @@ a{
    width: 300px;
    height: auto;
 }
-{
+*{
    box-sizing: border-box;
 }
 #sobre {
