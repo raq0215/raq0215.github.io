@@ -47,7 +47,7 @@ a{
    height: auto;
 }
 {
-   
+   box-sizing: border-box;
 }
 #sobre {
   background-color: #F5E6FF;
