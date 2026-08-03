@@ -42,7 +42,13 @@ a{
   border: 2px solid #313031;
   background-color: #FFF8D9;
 }
-
+#hero img{
+   width: 300px;
+   height: auto;
+}
+{
+   
+}
 #sobre {
   background-color: #F5E6FF;
 }
