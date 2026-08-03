@@ -37,6 +37,9 @@ a{
    ======================================== */
 
 #hero {
+    padding: 30px;
+  margin: 20px;
+  border: 2px solid #313031;
   background-color: #FFF8D9;
 }
 
