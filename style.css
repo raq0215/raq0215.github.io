@@ -2,7 +2,7 @@
    ESTILOS DOS ELEMENTOS
    ======================================== */
 h1{
-  color: #120224;
+  color: #4F2382;
   font-size: 40px;
   text-align: center;
 }
@@ -37,7 +37,7 @@ a{
    ======================================== */
 
 #hero {
-  background-color: ##fff7d1;
+  background-color: ##fffae1;
 }
 #hero img{
   margin: 20px;
@@ -47,25 +47,25 @@ a{
    box-sizing: border-box;
 }
 #sobre {
-  background-color: #fff7d1;
+  background-color: #fffae1;
 }
 
 #habilidades {
-  background-color: #fff7d1;
+  background-color: #fffae1;
 }
 
 #projetos{
-  background-color: #fff7d1;
+  background-color: #fffae1;
 }
 #contatos {
-  background-color: #fff7d1;
+  background-color: #fffae1;
 }
 
 /* ========================================
    RODAPÉ
    ======================================== */
 footer {
-  background-color: #fff7d1;
+  background-color: #fffae1;
 }
 
 footer p{
@@ -75,10 +75,10 @@ footer p{
 img {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 30%;
     object-fit: cover;
     border: 3px solid #4A1472;
 }
 body{
-  background-color: #fff7d1;
+  background-color: #fffae1;
 }
