@@ -4,20 +4,29 @@
 h1{
   color: #4F2382;
   font-size: 40px;
+   border-bottom: 1px solid #4F2382;
   text-align: center;
+   text-decoration: arial;
 }
 
 h2{
   color: #4F2382;
+   border-bottom: 1px solid #4F2382;
+  text-decoration: arial;
 }
 
 p{
   color: #0a090a;
+   text-decoration: arial;
 }
 
 a{
   color: #0A0112;
-  text-decoration: nome;
+  text-decoration: arial;
+}
+a:hover{
+  color: #4F2382;
+  text-decoration: arial;
 }
 /* ========================================
    CLASSE
@@ -25,12 +34,12 @@ a{
 
 .cargo {
   color: #666666;
-  font-weight: bold;
+  font-weight: arial;
 }
 
 .link-social {
   color: #261F1F;
-    text-decoration: nome;
+    text-decoration: arial;
 }
 /* ========================================
    SEÇÕES
@@ -41,7 +50,7 @@ a{
 }
 #hero img{
   margin: 20px;
-   border: 3px solid #080808;
+   border: 3px solid #4F2382;
 }
 *{
    box-sizing: border-box;
@@ -69,7 +78,8 @@ footer {
 }
 
 footer p{
-  color: #0a090a;
+  color: #0A0112;
+   text-align: row;
 }
 
 img {
@@ -81,4 +91,24 @@ img {
 }
 body{
   background-color: #fffae1;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+nav{
+  display: flex;
+  gap: 20px;
+}
+
+.projetos-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  
 }
