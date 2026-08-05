@@ -113,3 +113,15 @@ nav{
   align-items: row;
   flex-direction: column;
 }
+.container{
+  display: flex;
+  gap: 20px;
+}
+
+ /* ========================================
+   Celular
+   ======================================== */
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
