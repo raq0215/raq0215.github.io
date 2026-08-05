@@ -3,7 +3,7 @@
    ======================================== */
 h1{
   color: #4F2382;
-  font-size: 40px;
+  font-size: 30px;
    border-bottom: 1px solid #4F2382;
   text-align: center;
    text-decoration: arial;
@@ -16,7 +16,7 @@ h2{
 }
 
 p{
-  color: #0a090a;
+  color: #0A0112;
    text-decoration: arial;
 }
 
@@ -56,18 +56,18 @@ a:hover{
    box-sizing: border-box;
 }
 #sobre {
-  background-color: #fffae1;
+  
 }
 
 #habilidades {
-  background-color: #fffae1;
+
 }
 
 #projetos{
-  background-color: #fffae1;
+ 
 }
 #contatos {
-  background-color: #fffae1;
+ 
 }
 
 /* ========================================
@@ -91,6 +91,7 @@ img {
 }
 body{
   background-color: #fffae1;
+   background: linear-gradient(to bottom, #fae0e4, #ff99ac);
 }
 
 header{
