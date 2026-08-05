@@ -46,7 +46,7 @@ a:hover{
    ======================================== */
 
 #hero {
-  background-color: ##fffae1;
+ 
 }
 #hero img{
   margin: 20px;
@@ -82,7 +82,8 @@ footer {
 }
 
 footer p{
-  
+  color: #0A0112;
+  text-align: center;
 }
 
 img {
