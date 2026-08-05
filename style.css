@@ -51,6 +51,10 @@ a:hover{
 #hero img{
   margin: 20px;
    border: 3px solid #4F2382;
+   
+    width: 100%;
+   max-width: 300px;
+   height: auto;
 }
 *{
    box-sizing: border-box;
@@ -74,24 +78,28 @@ a:hover{
    RODAPÉ
    ======================================== */
 footer {
-  background-color: #fffae1;
+ 
 }
 
 footer p{
   color: #0A0112;
-   text-align: row;
+   text-align: center;
 }
 
 img {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border-radius: 20%;
     object-fit: cover;
     border: 3px solid #4A1472;
 }
 body{
   background-color: #fffae1;
-   background: linear-gradient(to bottom, #fae0e4, #ff99ac);
+   background: linear-gradient(to bottom, #cbeef3, #dfb2f4);
+}
+
+body{
+  font-family: Arial, sans-serif;
 }
 
 header{
@@ -99,12 +107,20 @@ header{
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
+flex-direction: row;
 
+   display: flex;
+    flex-direction: column;
+    align-items: center
 }
 
 nav{
   display: flex;
   gap: 20px;
+
+    display: flex;
+  grid-template-columns: 1fr;
+  gap: 10px;
 }
 
 .projetos-grid{
@@ -112,6 +128,10 @@ nav{
   justify-content: space-between;
   align-items: row;
   flex-direction: column;
+
+   display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
 }
 .container{
   display: flex;
@@ -124,4 +144,22 @@ nav{
 @media (max-width: 600px) {
   .container {
     flex-direction: column;
+  }
+@media (min-width: 768px) {
+
+    nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+     .projetos-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
   }
