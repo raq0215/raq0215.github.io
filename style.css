@@ -82,8 +82,7 @@ footer {
 }
 
 footer p{
-  color: #0A0112;
-   text-align: center;
+  
 }
 
 img {
@@ -94,7 +93,7 @@ img {
     border: 3px solid #4A1472;
 }
 body{
-  background-color: 
+  background-color: #fffae1
    background: linear-gradient(to bottom, #cbeef3, #dfb2f4);
 }
 
