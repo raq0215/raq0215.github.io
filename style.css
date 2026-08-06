@@ -2,27 +2,29 @@
    ESTILOS DOS ELEMENTOS
    ======================================== */
 h1{
-  color: #4F2382;
-  font-size: 30px;
-   border-bottom: 1px solid #4F2382;
-  text-align: center;
-   text-decoration: arial;
+    color: #4F2382;
+    font-size: 30px;
+    border-bottom: 1px solid #4F2382;
+    text-align: center;
+    text-decoration: arial;
+
 }
 
 h2{
   color: #4F2382;
-   border-bottom: 1px solid #4F2382;
+  border-bottom: 1px solid #4F2382;
   text-decoration: arial;
 }
 
 p{
   color: #0A0112;
-   text-decoration: arial;
+  text-decoration: arial;
 }
 
 a{
   color: #0A0112;
   text-decoration: arial;
+
 }
 a:hover{
   color: #4F2382;
@@ -36,7 +38,6 @@ a:hover{
   color: #666666;
   font-weight: arial;
 }
-
 .link-social {
   color: #261F1F;
     text-decoration: arial;
@@ -47,37 +48,41 @@ a:hover{
 
 
 #hero img{
-  margin: 20px;
+   margin: 20px;
+   object-fit: cover;
    border: 3px solid #4F2382;
-   
-    width: 100%;
+
+   width: 100%;
    max-width: 300px;
    height: auto;
 }
+
 *{
-   box-sizing: border-box;
+  box-sizing: border-box;
 }
+
 #sobre {
-  
+ 
 }
 
 #habilidades {
 
+ 
 }
 
 #projetos{
- 
+  
 }
 #contatos {
- 
+  
 }
 
 /* ========================================
    RODAPÉ
    ======================================== */
 
-
 footer p{
+
   color: #0A0112;
   text-align: center;
 }
@@ -88,10 +93,12 @@ img {
     border-radius: 20%;
     object-fit: cover;
     border: 3px solid #4A1472;
+
 }
+
 body{
-  background-color: #fffae1
-   background: linear-gradient(to bottom, #cbeef3, #dfb2f4);
+  background-color: #fffae1;
+  background: linear-gradient(to bottom, #cbeef3, #dfb2f4);
 }
 
 body{
@@ -103,9 +110,9 @@ header{
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-flex-direction: row;
+  flex-direction: row;
 
-   display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center
 }
@@ -114,13 +121,13 @@ nav{
   display: flex;
   gap: 20px;
 
-    display: flex;
+  display: flex;
   grid-template-columns: 1fr;
   gap: 10px;
 }
 
 .projetos-grid{
- display: flex;
+  display: flex;
   justify-content: space-between;
   align-items: row;
   flex-direction: column;
@@ -141,6 +148,8 @@ nav{
   .container {
     flex-direction: column;
   }
+}
+
 @media (min-width: 768px) {
 
     nav {
@@ -159,6 +168,7 @@ nav{
     }
 
   }
+
 #habilidades ul {
   background-color: #f2f2f2;
   border-radius: 20px;
