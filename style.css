@@ -159,3 +159,25 @@ nav{
     }
 
   }
+#habilidades ul {
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, #ffffff, #d3d3d3);
+  box-shadow: 5px 4px 6px rgba(1, 1, 0, 0.1);
+}
+
+#landing {
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, #ffffff, #d3d3d3);
+  box-shadow: 5px 4px 6px rgba(1, 1, 0, 0.1);
+}
+
+.projetos-grid article {
+  background-color: #f2f2f2;
+  border-radius: 30px;
+  background: linear-gradient(to bottom, #ffffff, #d3d3d3);
+  box-shadow: 5px 4px 6px rgba(1, 1, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+}
