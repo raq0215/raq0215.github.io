@@ -1,4 +1,3 @@
-//CRIA UM NOVO ELEMENTO NA PÁGINA
 
 const botaoVerMais = document.getElementById("btn-ver-mais");
 
