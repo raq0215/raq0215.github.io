@@ -1,178 +1,278 @@
-/* ========================================
-   ESTILOS DOS ELEMENTOS
-   ======================================== */
-h1{
-    color: #4F2382;
-    font-size: 30px;
-    border-bottom: 1px solid #4F2382;
+/* ==============================
+   CONFIGURAÇÕES GERAIS
+================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f8f5fc;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ==============================
+   CABEÇALHO
+================================= */
+
+header {
+    background: #ffffff;
+    color: black;
     text-align: center;
-    text-decoration: arial;
-
+    padding: 40px 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }
 
-h2{
-  color: #4F2382;
-  border-bottom: 1px solid #4F2382;
-  text-decoration: arial;
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
 }
-
-p{
-  color: #0A0112;
-  text-decoration: arial;
-}
-
-a{
-  color: #0A0112;
-  text-decoration: arial;
-
-}
-a:hover{
-  color: #4F2382;
-  text-decoration: arial;
-}
-/* ========================================
-   CLASSE
-   ======================================== */
 
 .cargo {
-  color: #666666;
-  font-weight: arial;
-}
-.link-social {
-  color: #261F1F;
-    text-decoration: arial;
-}
-/* ========================================
-   SEÇÕES
-   ======================================== */
-
-
-#hero img{
-   margin: 20px;
-   object-fit: cover;
-   border: 3px solid #4F2382;
-
-   width: 100%;
-   max-width: 300px;
-   height: auto;
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+    color: #333;
 }
 
-*{
-  box-sizing: border-box;
+/* ==============================
+   MENU
+================================= */
 
-/* ========================================
-   RODAPÉ
-   ======================================== */
-
-footer p{
-
-  color: #0A0112;
-  text-align: center;
-}
-
-img {
-    width: 200px;
-    height: 200px;
-    border-radius: 20%;
-    object-fit: cover;
-    border: 3px solid #4A1472;
-
-}
-
-body{
-  background-color: #fffae1;
-  background: linear-gradient(to bottom, #cbeef3, #dfb2f4);
-}
-
-body{
-  font-family: Arial, sans-serif;
-}
-
-header{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  flex-direction: row;
-
+nav {
     display: flex;
-    flex-direction: column;
-    align-items: center
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
-nav{
-  display: flex;
-  gap: 20px;
-
-  display: flex;
-  grid-template-columns: 1fr;
-  gap: 10px;
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 20px;
+    transition: 0.3s;
 }
 
-.projetos-grid{
-  display: flex;
-  justify-content: space-between;
-  align-items: row;
-  flex-direction: column;
-
-   display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-}
-.container{
-  display: flex;
-  gap: 20px;
+nav a:hover {
+    background-color: rgb(209, 152, 241);
+    color: #7b1fa2;
 }
 
- /* ========================================
-   Celular
-   ======================================== */
-@media (max-width: 600px) {
-  .container {
-    flex-direction: column;
-  }
+/* ==============================
+   CONTEÚDO PRINCIPAL
+================================= */
+
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
 }
 
-@media (min-width: 768px) {
+section {
+    background-color: rgb(255, 255, 255);
+    margin: 40px 0;
+    padding: 50px 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
 
-    nav {
-        flex-direction: row;
-        justify-content: center;
-    }
+section h2 {
+    color: #822ab9;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2rem;
+}
 
-    header {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
+/* ==============================
+   HERO
+================================= */
 
-     .projetos-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
+#hero {
+    text-align: center;
+    padding: 60px 30px;
+}
 
-  }
+#hero h2 {
+    font-size: 2.2rem;
+    margin-bottom: 25px;
+}
+
+#hero img {
+    display: block;
+    margin: 20px auto;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #9c27b0;
+    box-shadow: 0 5px 20px rgba(106, 27, 154, 0.3);
+}
+
+#hero p {
+    max-width: 700px;
+    margin: 25px auto 0;
+    font-size: 1.05rem;
+}
+
+/* ==============================
+   SOBRE
+================================= */
+
+#sobre {
+    text-align: center;
+}
+
+#sobre p {
+    max-width: 750px;
+    margin: 0 auto 25px;
+}
+
+button {
+    background-color: #7b1fa2;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-family: inherit;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #8550c5;
+    transform: translateY(-2px);
+}
+
+/* ==============================
+   HABILIDADES
+================================= */
 
 #habilidades ul {
-  background-color: #f2f2f2;
-  border-radius: 20px;
-  background: linear-gradient(to bottom, #ffffff, #d3d3d3);
-  box-shadow: 5px 4px 6px rgba(1, 1, 0, 0.1);
+    list-style: none;
+    max-width: 600px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
-#landing {
-  background-color: #f2f2f2;
-  border-radius: 20px;
-  background: linear-gradient(to bottom, #ffffff, #d3d3d3);
-  box-shadow: 5px 4px 6px rgba(1, 1, 0, 0.1);
+#habilidades li {
+    background: #f3e5f5;
+    color: #68179b;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid #e1bee7;
+    transition: 0.3s;
+}
+
+#habilidades li:hover {
+    background-color: #9c27b0;
+    color: white;
+    transform: translateY(-5px);
+}
+
+/* ==============================
+   PROJETOS
+================================= */
+
+.projetos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
 }
 
 .projetos-grid article {
-  background-color: #f2f2f2;
-  border-radius: 30px;
-  background: linear-gradient(to bottom, #ffffff, #d3d3d3);
-  box-shadow: 5px 4px 6px rgba(1, 1, 0, 0.1);
-  overflow: hidden;
-  text-align: center;
-}}
+    background-color: #fafafa;
+    padding: 25px;
+    border-radius: 12px;
+    border-left: 5px solid #9c27b0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
 
+.projetos-grid article:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
 
+.projetos-grid h3 {
+    color: #6a1b9a;
+    margin-bottom: 10px;
+}
+
+/* ==============================
+   CONTATO
+================================= */
+
+#contato {
+    text-align: center;
+}
+
+#contato p {
+    margin-bottom: 20px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #9c27b0;
+    box-shadow: 0 0 5px rgba(156, 39, 176, 0.3);
+}
+
+/* ==============================
+   RODAPÉ
+================================= */
+
+footer {
+    
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 50px;
+}
+
+footer p {
+    color: #080808;
+    margin: 9px 0;
+    
+}
+footer .link-social {
+    color: #2f1135; /* Cor dos links */
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 5px;
+    transition: 0.3s;
+}
+
+footer .link-social:hover {
+    color: rgb(160, 71, 233);
+    text-decoration: underline;
+}
