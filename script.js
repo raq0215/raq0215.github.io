@@ -22,9 +22,9 @@
 
 
 
- const botaoEnviar = document.getElementById("btn-enviar");
+//  const botaoEnviar = document.getElementById("btn-enviar");
 
-const conteudoExtra = document.getElementById("conteudo-extra");
+// const conteudoExtra = document.getElementById("conteudo-extra");
 
 // botaoEnviar.addEventListener("click", function () {
 
@@ -52,17 +52,46 @@ const conteudoExtra = document.getElementById("conteudo-extra");
 
 
 
-contato.addEventListener("submit", function(event) {
 
-    event.preventDefault();
+// contato.addEventListener("submit", function(event) {
 
-    console.log("nome:", nome.value);
-    console.log("e-mail:", email.value);
+//     event.preventDefault();
+
+//     console.log("nome:", nome.value);
+//     console.log("e-mail:", email.value);
+
+// });
+
+// const mensagemSucesso =
+//    document.getElementById("mensagem-sucesso");
+// mensagemSucesso.textContent = "Mensagem enviada com sucesso!";
+
+
+
+let mostrandoMais = false;
+
+botaoVerMais.addEventListener("click", function () {
+
+   if (mostrandoMais === false) {
+
+       const novoParagrafo = document.createElement("p");
+
+        novoParagrafo.textContent =
+            "Estou desenvolvendo projetos para praticar meus conhecimentos e construir meu portfólio profissional.";
+
+      conteudoExtra.appendChild(novoParagrafo);
+
+      botaoVerMais.textContent = "Ver menos";
+
+        mostrandoMais = true;
+
+    } else {
+
+        conteudoExtra.innerHTML = "";
+
+        botaoVerMais.textContent = "Ver mais";
+
+        mostrandoMais = false;
+    }
 
 });
-
-const mensagemSucesso =
-   document.getElementById("mensagem-sucesso");
-mensagemSucesso.textContent = "Mensagem enviada com sucesso!";
-
-
