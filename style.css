@@ -62,8 +62,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: rgb(209, 152, 241);
-    color: #7b1fa2;
+    background-color: rgb(145, 44, 204);
+    color: #fefdff;
 }
 
 /* ==============================
@@ -161,7 +161,7 @@ button:hover {
     max-width: 600px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
 
