@@ -109,14 +109,16 @@
          <!-- Contato -->
          <section id="contato">
              <h2>Entre em contato</h2>
-             
+                <form id="formulario-contato">
                  <p>
                      <label for="name">Nome</label><br>
                      <input
                          type="text"
                          id="name"
-                         name="Name">
-                     
+                         name="Name"
+                         maxlength="50"
+                         pattern="[A-Za-zÀ-ÿ 0-100]+"
+                         required>
                  </p>
 
                  <p>
@@ -124,7 +126,8 @@
                      <input
                          type="email"
                          id="email"
-                         name="Email">
+                         name="Email"
+                         required>
                         
                     </p>
 
