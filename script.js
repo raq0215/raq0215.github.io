@@ -1,4 +1,5 @@
 
+
 const botaoVerMais = document.getElementById("btn-ver-mais");
 const conteudoExtra = document.getElementById("conteudo-extra");
 
@@ -31,3 +32,16 @@ botaoVerMais.addEventListener("click", function () {
 });
 
 
+
+const botaoEnviar = document.getElementById("btn-enviar");
+const mensagemSucesso = document.getElementById("mensagem-sucesso");
+
+botaoEnviar.addEventListener("click", function () {
+
+    mensagemSucesso.textContent = "Enviado com sucesso!";
+
+    setTimeout(function () {
+        mensagemSucesso.textContent = "";
+    }, 3000);
+
+});
