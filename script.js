@@ -12,7 +12,7 @@ botaoVerMais.addEventListener("click", function () {
         const novoParagrafo = document.createElement("p");
 
         novoParagrafo.textContent =
-            "Estou desenvolvendo projetos para praticar meus conhecimentos e construir meu portfólio profissional.";
+            "Minha trajetória profissional começou na área de Administração, onde realizei cursos, estagiei e atuei como Jovem Aprendiz, desenvolvendo habilidades de organização, comunicação, responsabilidade e trabalho em equipe. Atualmente, busco novos desafios e tenho como objetivo construir minha carreira na área de Psicologia, unindo meus conhecimentos e experiências ao meu interesse pelo comportamento humano.";
 
         conteudoExtra.appendChild(novoParagrafo);
 
