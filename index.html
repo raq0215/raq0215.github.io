@@ -73,82 +73,220 @@
 
           <!--Habiliades-->
           <section id="habilidades">
-            <h2>Habiliades</h2>
+            <h2>Habilidades</h2>
 
             <ul id="">
                 <li>HTML</li>
                 <li>CSS</li>
-                <li>Git e GitHub</li>
+                <li>GitHub</li>
                 <li>JavaScript</li>
+                <li>Bootstrap</li>
             </ul>
         
             
           </section>
-          <!-- Projetos-->
-           <section id="projetos">
 
-            <h2>Projetos</h2>
+          <!-- Certificados -->
+        <section id="certificados" class="certificados">
+            <h2>Certificados</h2>
+            <p class="subtitulo">Cursos e formações que fazem parte da minha trajetória.</p>
 
-            <div class="projetos-grid">
-                <article>
-                    <h3>Landing Page</h3>
-                    <p>Página criada utilizando HTML.</p>
-                </article>
+        <div class="certificados-container">
 
-                <article>
-                    <h3>Currículo Online</h3>
-                    <p>Primeira versão do meu portfólio.</p>
-                </article>
+        <!-- Certificado 1 -->
+        <div class="certificado-card">
 
-                <article>
-                    <h3>Site Responsivo</h3>
-                    <p>Projeto desenvolvido para praticar CSS.</p>
-                </article>
+            <img src="Certificados/img/assistente administrativo_page-0001.jpg" alt="Certificado de Assistente Administrativo">
+
+            <a href="Certificados/assistente administrativo.pdf"
+               target="_blank"
+               class="btn-certificado">
+                Ver certificado →
+            </a>
+        </div>
+
+        <!-- Certificado 2 -->
+        <div class="certificado-card">
+            <img src="Certificados/img/administração_page-0001.jpg" alt="Certificado de Administração">
+
+            <a href="Certificados/administração.pdf"
+               target="_blank"
+               class="btn-certificado">
+                Ver certificado →
+            </a>
+        </div>
+
+        <!-- Certificado 3 -->
+        <div class="certificado-card">
+            <img src="Certificados/img/informática avançada_pages-to-jpg-0001.jpg" alt="Certificado de Informática Avançada">
+
+            <a href="Certificados/informatica-avancada.pdf"
+               target="_blank"
+               class="btn-certificado">
+                Ver certificado →
+            </a>
+        </div>
+
+        <!-- Certificado 4 -->
+        <div class="certificado-card">
+            <img src="Certificados/img/educação financeira_page-0001.jpg" alt="Certificado de Educação Financeira">
+
+            <a href="Certificados/educação financeira.pdf"
+               target="_blank"
+               class="btn-certificado">
+                Ver certificado →
+            </a>
+        </div>
+
+         <!-- Certificado 5 -->
+        <div class="certificado-card">
+            <img src="Certificados/img/coletivo-online_page-0001.jpg" alt="Certificado de Coletivo Online">
+
+            <a href="Certificados/coletivo-online.pdf"
+               target="_blank"
+               class="btn-certificado">
+                Ver certificado →
+            </a>
+        </div>
+
+    </div>
+</section>
+
+        <!-- Projetos -->
+<section id="projetos">
+
+    <h2>Meus Projetos</h2>
+
+    <p class="subtitulo">
+        Alguns dos projetos que desenvolvi durante meus estudos de Front-end.
+    </p>
+
+    <div class="projetos-grid">
+
+        <!-- Projeto 1 -->
+        <article>
+            <div class="projeto-icon">🍰</div>
+
+            <h3>Cake Place</h3>
+
+            <p>
+                Site de uma confeitaria artesanal, desenvolvido para praticar
+                estruturação de páginas, estilização e interações.
+            </p>
+
+            <div class="tecnologias">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Interações com o usuário</span>
             </div>
-               
-           </section>
-         <!-- Contato -->
-         <section id="contato">
-             <h2>Entre em contato</h2>
-                <form id="formulario-contato">
-                 <p>
-                     <label for="name">Nome</label><br>
-                     <input
-                         type="text"
-                         id="name"
-                         name="Name"
-                         maxlength="50"
-                         pattern="[A-Za-zÀ-ÿ 0-100]+"
-                         required>
-                 </p>
 
-                 <p>
-                      <label for="email">E-mail</label><br>
-                     <input
-                         type="email"
-                         id="email"
-                         name="Email"
-                         required>
-                        
-                    </p>
+            <a href="https://github.com/raq0215/Site-Confeitaria." class="btn-projeto">
+                Ver projeto →
+            </a>
+        </article>
 
-                    <p> 
-                
-                     <button id="btn-enviar">Enviar</button>
+        <!-- Projeto 2 -->
+        <article>
+            <div class="projeto-icon">🌸</div>
 
-                      <div id="mensagem-sucesso"></div>
-                 </p> 
-                 
-             </form>
-             
-         </section>
+            <h3>Melanie Gossip</h3>
+
+            <p>
+                Site de notícias e entretenimento inspirado em um portal
+                de fofocas sobre Melanie Martinez.
+            </p>
+
+            <div class="tecnologias">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Estrutura com múltiplas páginas</span>
+            </div>
+
+            <a href="https://github.com/raq0215/Site-Fofoca" class="btn-projeto">
+                Ver projeto →
+            </a>
+        </article>
+
+        <!-- Projeto 3 -->
+        <article>
+            <div class="projeto-icon">🔮</div>
+
+            <h3>Quiz Gravity Falls</h3>
+
+            <p>
+                Quiz interativo desenvolvido com JavaScript para descobrir
+                qual personagem de Gravity Falls combina com o usuário.
+            </p>
+
+            <div class="tecnologias">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Layout responsivo</span>
+            </div>
+
+            <a href="https://github.com/raq0215/Site-jogo" class="btn-projeto">
+                Ver projeto →
+            </a>
+        </article>
+
+         <!-- Projeto 4 -->
+        <article>
+            <div class="projeto-icon">🍮</div>
+
+            <h3>Comidas Típicas de Pernambuco</h3>
+
+            <p>
+                Site informativo sobre comidas típicas de Pernambuco, desenvolvido
+                para praticar estruturação de páginas e estilização.
+            </p>
+
+            <div class="tecnologias">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Layout responsivo</span>
+            </div>
+
+            <a href="https://github.com/raq0215/Comidas-T-picas" class="btn-projeto">
+                Ver projeto →
+            </a>
+        </article>
+
+         <!-- Projeto 4 -->
+        <article>
+            <div class="projeto-icon">💭</div>
+
+            <h3>Meus hobbies</h3>
+
+            <p>
+                Site informativo sobre meus hobbies, desenvolvido
+                para praticar estruturação de páginas e estilização.
+            </p>
+
+            <div class="tecnologias">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Layout responsivo</span>
+            </div>
+
+            <a href="https://github.com/raq0215/Meus-hobbies-UC5" class="btn-projeto">
+                Ver projeto →
+            </a>
+        </article>
+
+    </div>
+
+</section>
+
          
      </main>
     <!-- Rodapé -->
     <footer>
         <p>&copy; 2026 Raquel Moreira</p>
             
-        <p>Email: RaquelM0819@gmail.com</p>
+        <p>Email: raquelmoreirasilva0215@gmail.com</p>
 
         <p>
             <a href="https://github.com/raq0215"target="_blank" rel="noopener noreferrer" class="link-social"
